@@ -129,7 +129,7 @@ export const resetPassword = ({ newPassword, token }) => async (dispatch) => {
   const body = JSON.stringify({ newPassword });
   try {
     const res = await axios.put(
-      `http://65.1.90.187/api/v1/auth/resetpassword/${token}`,
+      `http://localhost:5000/api/v1/auth/resetpassword/${token}`,
       body,
       {
         headers: {

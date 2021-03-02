@@ -6,13 +6,18 @@ import Services from "../pages/Services";
 import Landing from "../pages/Landing";
 import Membership from '../pages/Membership'
 import Footer from "../pages/Footer";
+import Aboutfbiv from "../pages/Aboutfbiv"
+import Perface from '../pages/Perface'
 
 function Wrapper() {
   return (
     <div>
       <Slider />
-      <Verification />
+      {/* <Verification /> */}
+      <Aboutfbiv />
+
       <About />
+      <Perface />
       <Services />
       <Landing />
       <Membership />

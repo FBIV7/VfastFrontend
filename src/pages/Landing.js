@@ -79,57 +79,25 @@ const Landing = () => {
           </div>
         </div>
       </div>
-
-      <div style={{ backgroundColor: "#fcfcfc" }}>
-        <div className="flex justify-center text-3xl section-title font-serif md:text-5xl">
-          <h1 className="flex justify-center font" style={{ marginTop: "50px" }}>
-            MEET THE TEAM
-          </h1>
-        </div>
-        <div className="blogs__wraper   py-20 px-20">
-          <div className=" block justify-between items-center md:flex justify-between items-center">
-            <div className="blogs bg-white mr-5">
-              <img src="assets/team/amarjeet.jpg" alt="imgAmarjeet" className="" width="240px" />
-              <div className="p-5">
-                <h1 className="text-2xl font-bold fontServ text-black-800 py-2">
-                  Amarjeet Singh
-                </h1>
-                <p className="bg-white fontServ text-sm text-black">Managing Director</p>
-              </div>
-            </div>
-
-            <div className="blogs bg-white mr-5">
-              <img src="assets/team/Karan.png" className="" alt="imgKaran" width="240px" />
-              <div className="p-5">
-                <h1 className="text-2xl font-bold fontServ text-black-800 py-2">
-                  Karan Chaturvedi
-                </h1>
-                <p className="bg-white fontServ text-sm text-black">Operations</p>
-              </div>
-            </div>
-
-            <div className="blogs bg-white mr-5">
-              <img src="assets/team/Aman.jpg" className="" alt="imgAman" width="240px" />
-              <div className="p-5">
-                <h1 className="text-2xl font-bold fontServ text-black-800 py-2">
-                  Aman Sikarwar
-                </h1>
-                <p className="bg-white fontServ text-sm text-black">Developer</p>
-              </div>
-            </div>
-            <div className="blogs bg-white mr-5">
-              <img src="assets/team/jagiriti.jpg" className="" alt="imgJagriti" width="240px" />
-              <div className="p-5">
-                <h1 className="text-2xl font-bold fontServ text-black-800 py-2">
-                  Jagrati Bhatnager
-                </h1>
-                <p className="bg-white fontServ text-sm text-black">HR</p>
-              </div>
-            </div>
-          </div>
-        </div>
+      <div className="flex justify-center text-3xl section-title font-serif md:text-5xl">
+        <h1 className="flex justify-center font" style={{ marginTop: "30px" }}>
+          WHAT MAKES US UNIQUE IN VERIFICATION INDUSTRY?
+        </h1>
       </div>
+      <p>Our innovative and on-demand solutions put you in the driver’s seat, providing you with the features and services vital to proficiently and effectively manage your background screening program and make smarter decisions fast.</p>
+      <li>
+        56% of employers say the leading benefit of background checks is better quality of hire.</li>
+      <li> 84% of employers report finding misrepresentations on a resume or job application.</li>
+      <li>74% of employers say background screening uncovered issues that wouldn’t have been caught otherwise.</li>
 
+      <div className="flex justify-center text-3xl section-title font-serif md:text-5xl">
+        <h1 className="flex justify-center font" style={{ marginTop: "30px" }}>
+          ENROLLMENT        </h1>
+  
+      </div>
+      <li> EMPLOYER </li>
+        <li> EMPLYOEE </li>
+        <li> STUDENT</li>
       <div className=" block justify-center sm:flex md:m-20">
         <div
           className="h-100 m-5 sm:h-auto sm:w-48 flex-none bg-cover rounded-t sm:rounded-t-none sm:rounded-l text-center overflow-hidden"
@@ -162,6 +130,8 @@ const Landing = () => {
             </p>
           </div>
         </div>
+      </div>
+      <div>
       </div>
     </div>
   );

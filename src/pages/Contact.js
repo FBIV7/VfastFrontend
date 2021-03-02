@@ -63,7 +63,7 @@ const Contact = () => {
           className=" contactFont flex justify-center "
           style={{ marginTop: "202px" }}
         >
-          GET IN TOUCH
+          Our Coverage and Empanelment
         </div>
       </div>
       <div className="block justify-center md:grid grid-cols-3 gap-5">
@@ -132,12 +132,12 @@ const Contact = () => {
           </form>
         </div>
         <div className="m-8 md:col-span-1 block justify-center ">
-          <div className="font"> Contact Info</div>
-          <div
+          {/* <div className="font"> Contact Info</div> */}
+          {/* <div
             className="fa fa-map-marker"
             style={{ fontSize: "18px" }}
-          ></div>{" "}
-          Registered Office : FBIV Infocomm Pvt. Ltd.
+          ></div>{" "} */}
+          {/* Registered Office : FBIV Infocomm Pvt. Ltd.
           <p className="font1"> D-2/6, Krishna Nagar, Delhi-110051</p>
           <div className="contact-item ">
             <p className="font1">
@@ -148,13 +148,13 @@ const Contact = () => {
               <br />
               +91-11 455 02777
             </p>
-          </div>
-          <div className="contact-item font1">
+          </div> */}
+          {/* <div className="contact-item font1">
             <span>
               <i className="fa fa-envelope-o"></i> Email
             </span>{" "}
             <a href="mailto:info@vfast.in">: info@vfast.in</a>
-          </div>
+          </div> */}
           <div style={{ height: "27vh", width: "80%" }}>
             <GoogleMapReact
               className="map"
@@ -174,60 +174,75 @@ const Contact = () => {
         </div>
       </div>
 
-      {/* <div className="block justify-center item">
-        <div className="block md: flex grid grid-cols-4 justify-between">
-          <ul className=" mx-auto md:flex col-start-2 col-span-2">
-            <li>
-              <a
-                href="https://www.facebook.com/www.vfast.in/"
-                className="md:m-6"
-              >
-                <i className="fa fa-facebook fa-2x"></i>
-              </a>
-            </li>
-            <li>
-              <a href="https://twitter.com/VFAST_IN" className="md:m-6">
-                <i className="fa fa-twitter fa-2x"></i>
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://in.pinterest.com/pin/819444094682129972/"
-                className="md:m-6"
-              >
-                <i className="fa fa-pinterest fa-2x"></i>
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.instagram.com/vfast.in/?igshid=udh0i53a85ww"
-                className="md:m-6"
-              >
-                <i className="fa fa-instagram fa-2x"></i>
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.linkedin.com/authwall?trk=gf&trkInfo=AQHExrOAglby_wAAAXZHoXfILabnDG7p4NRWvDLHbBHhJCsITf1nP_R1m3F3rcIxTWcdVfsiYPj0Y_hO9SanLPT92bMwV5_2CgEh3E5BfFr5WoAB12Zk6Svek0Y415inN6ziel0=&originalReferer=http://vfast.co.in/&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fvfast"
-                className="md:m-6"
-              >
-                <i className="fa fa-linkedin fa-2x"></i>
-              </a>
-            </li>
-            <li>
-              <a href="https://vfastverify.tumblr.com/" className="md:m-6">
-                <i className="fa fa-tumblr fa-2x"></i>
-              </a>
-            </li>
-          </ul>
-        </div>
-        </div> */}
-      <div className="my-2  border-solid  border-white-900 opacity-25 w-1/2 mx-auto" />
-      <p className="flex justify-center mx-auto text-sm md:text-4xl">
-        {/* Copyright &copy; 2021 All Rights Reserved @ VFAST */}
 
-      </p>
+      <div className="my-2  border-solid  border-white-900 opacity-25 w-1/2 mx-auto" />
+
+      <div class="container mx-auto px-6">
+
+        <div class="sm:flex sm:mt-8">
+          <div class="mt-8 sm:mt-0 sm:w-full sm:px-8 flex flex-col md:flex-row justify-evenly">
+            <div class="flex flex-col">
+              <p>Delhi :</p>
+                                FBIV Infocomm Pvt. Ltd.
+          <p > D-2/6 Krishna Nagar,  East Delhi,</p>
+              <p > Delhi-110051</p>
+              <div className="contact-item ">
+                <p className="font1">
+                  <span>
+                    <i className="fa fa-phone"></i> Phone
+              </span>{" "}
+              +91-11 410 02777
+              <br />
+              +91-11 455 02777
+            </p>
+           <p> <a href = "mailto: contact@vfast.in">contact@vfast.in</a></p>
+           <p> <a href = "mailto: sales@vfast.in">sales@vfast.in</a></p>
+
+            
+              </div>
+             
+
+
+            </div>
+            <div class="flex flex-col">
+              <p>Noida :</p>
+              Noida One Office 
+          <p > # 419 Noida  </p>
+              <p > UP - 201301</p>
+              <div className="contact-item ">
+                <p className="font1">
+                  <span>
+                    <i className="fa fa-phone"></i> Phone
+              </span>{" "}
+              +91 9700 120 977
+              <br />
+              +91 9700 120 177
+            </p>        
+              </div>
+            </div>
+            <div class="flex flex-col">
+              <p>Mumbai : </p>
+              A1-001 Centre Point
+          <p >N.M Joshi Marg, Lower Parel </p>
+              <p >(East) Mumbai 400013 </p>
+              <div className="contact-item ">
+                <p className="font1">
+                  <span>
+                    <i className="fa fa-phone"></i> Phone
+              </span>{" "}
+              +91 022 49637877
+            </p>        
+              </div>
+            </div>
+
+
+
+          </div>
+        </div>
+      </div>
+
     </div>
+
 
   );
 };
